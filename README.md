@@ -1,2 +1,2 @@
 # put_io_lab
-jan czemko
+jan czemko lab4
