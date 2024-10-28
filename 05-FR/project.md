@@ -39,18 +39,6 @@ Specyfikacja wymagań funkcjonalnych w ramach informatyzacji procesu sprzedaży 
 <a id="ac2"></a>
 ### AC2: Kupujący
 
-**Aktorzy:**[Kupujący](#ac2)
-
-**Opis:** Osoba chcąca zakupić produkt na aukcji.
-
-**Scenariusz główny:**
-1. [Kupujący](#ac2) poszukuje interesujących go aukcji.
-2. [Kupujący](#ac2) zapoznaje się ze znalezioną aukcją.
-3. [Kupujący](#ac2) składa ofertę zakupu.
-4. [Kupujący](#ac2) obserwuje rozwój aukcji
-5. [Kupujący](#ac2) wygrywa aukcję.
-6. [Kupujący](#ac2) otrzymuje przedmiot.
-
 **Scenariusze alternatywne:** 
 
 4.A. Oferta kupującego zostaje przebita, [Kupujący](#ac2) chce podwyższyć swoją ofertę.
@@ -65,13 +53,15 @@ Specyfikacja wymagań funkcjonalnych w ramach informatyzacji procesu sprzedaży 
 * [UC2](#uc2): Doglądanie przebiegu aukcji
 * [UC3](#uc3): Zapakowanie przedmiotu po zakończeniu jeżeli został sprzedany
 * [UC4](#uc4): Wysłanie przedmiotu  
-* [UC5](#uc5): Odebranie pieniędzy za przedmiot 
+* [UC5](#uc5): Sprzedający zgłasza wysłane i podaje numer paczk
+* [UC6](#uc6): Odebranie pieniędzy za przedmiot 
 
 [Kupujący](#ac2)
 * [UC1](#uc1): Znalezienie aukcji 
 * [UC2](#uc2): Zapoznanie się z opisem przedmiotu
 * [UC3](#uc3): Złożenie oferty i przebicie obecnej najlepszej oferty
 * [UC4](#uc4): Obeserwonie rozwoju aukcji celem zwiększena oferty
+* [UC4](#uc4): Kupujący wysyła pieniądze za przedmiot
 * [UC5](#uc5): Odebranie zakupionego przedmiotu
 
 ---
