@@ -36,26 +36,6 @@ Specyfikacja wymagań funkcjonalnych w ramach informatyzacji procesu sprzedaży 
 <a id="ac1"></a>
 ### AC1: Sprzedający
 
-**Aktorzy:** [Sprzedający](#ac1)
-
-**Opis:** Osoba oferująca towar na aukcji.
-
-**Scenariusz główny:**
-1. [Sprzedający](#ac1) wystawia produkt na aukcję.
-2. [Sprzedający](#ac1) czuwa nad przebiegiem aukcji.
-3. [Sprzedający](#ac1) zostaje poinformowany o sprzedaniu przedmiotu.
-4. [Sprzedający](#ac1) przygotowuje przedmiot do wysyłki.
-5. [Sprzedający](#ac1) otrzymuje pieniądze za przedmiot.
-6. [Sprzedający](#ac1) wysyłą przedmiot.
-
-**Scenariusze alternatywne:** 
-
-3.A. Cena minimalna nie została osiągnięta lub nie było ofert, [Sprzedający](#ac1) chce ponownie wystawić przedmiot.
-* 3.A.1. Przejdź do kroku 1.
-
-5.A. Sprzedający nie otrzymał należnych pieniędzy, [Sprzedający](#ac1) chce ponownie wystawić przedmiot.
-* 5.A.1. Przejdź do kroku 1.
-
 <a id="ac2"></a>
 ### AC2: Kupujący
 
@@ -83,14 +63,16 @@ Specyfikacja wymagań funkcjonalnych w ramach informatyzacji procesu sprzedaży 
 [Sprzedający](#ac1):
 * [UC1](#uc1): Wystawienie produktu na aukcję
 * [UC2](#uc2): Doglądanie przebiegu aukcji
-* [UC3](#uc3): Zakapowanie przedmiotu po zakończeniu jeżeli został sprzedany
+* [UC3](#uc3): Zapakowanie przedmiotu po zakończeniu jeżeli został sprzedany
 * [UC4](#uc4): Wysłanie przedmiotu  
+* [UC5](#uc5): Odebranie pieniędzy za przedmiot 
 
 [Kupujący](#ac2)
 * [UC1](#uc1): Znalezienie aukcji 
 * [UC2](#uc2): Zapoznanie się z opisem przedmiotu
-* [UC3](#uc3): Złożenie oferty
+* [UC3](#uc3): Złożenie oferty i przebicie obecnej najlepszej oferty
 * [UC4](#uc4): Obeserwonie rozwoju aukcji celem zwiększena oferty
+* [UC5](#uc5): Odebranie zakupionego przedmiotu
 
 ---
 <a id="uc1"></a>
